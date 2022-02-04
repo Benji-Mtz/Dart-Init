@@ -11,9 +11,11 @@ void main() {
   // Números
   int edad = 34;
   double peso = 75.5;
+  bool flag = true;
 
   var nombreCompleto = '$nombre $apellidos';
   print(nombreCompleto);
+  print("El valor de la bandera es: $flag");
   print("El valor de PI es: $PI");
   print("$nombre tiene $edad años y pesa $peso Kg.");
 }
